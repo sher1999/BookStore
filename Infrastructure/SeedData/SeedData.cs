@@ -84,6 +84,6 @@ public static  class SeedData
         context.Users.AddRange(users);
         context.Reviews.AddRange(reviews);
         context.SaveChanges();
-
+        
     }
 }

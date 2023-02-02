@@ -14,7 +14,10 @@ public class Author
     [Required,MaxLength(100)]
     public string Website { get; set; }
     public List<BookAuthor> BookAuthors { get; set; }
-
+public Author()
+{
+    
+}
     public Author(int id, string firstname, string lastname, string bio, string website)
     {
         Id = id;

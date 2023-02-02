@@ -21,7 +21,10 @@ public class Book
     public int SubjectId { get; set; }
     public Subject Subject { get; set; }
     public List<BookAuthor> BookAuthors { get; set; }
-
+public Book()
+{
+    
+}
     public Book(int id, string title, DateTime publishDate, decimal price, int pageCount, string isbn, string summary, string notes, int publisherId, int subjectId)
     {
         Id = id;

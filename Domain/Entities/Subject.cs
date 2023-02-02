@@ -6,7 +6,10 @@ public class Subject
     public string Name { get; set; }
     public string Description { get; set; }
     public List<Book> Books { get; set; }
-
+  public Subject()
+  {
+    
+  }
     public Subject(int id, string name, string description)
     {
         Id = id;

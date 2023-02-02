@@ -10,7 +10,10 @@ public class Review
     public Book Book { get; set; }
     public int UserId { get; set; }
     public User User { get; set; }
-
+public Review()
+{
+    
+}
     public Review(int id, string title, string comment, int rating, int bookId,  int userId)
     {
         Id = id;

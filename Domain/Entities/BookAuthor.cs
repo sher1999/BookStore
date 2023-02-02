@@ -6,7 +6,10 @@ public class BookAuthor
     public Book Book { get; set; }
     public int AuthorId { get; set; }
     public Author Author { get; set; }
-
+    public BookAuthor()
+{
+    
+}
     public BookAuthor(int bookId, int authorId)
     {
         BookId = bookId;

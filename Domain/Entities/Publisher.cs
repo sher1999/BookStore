@@ -12,6 +12,10 @@ public class Publisher
     [Required,MaxLength(100)]
     public string Website { get; set; }
 
+public Publisher()
+{
+    
+}
     public Publisher(int id, string name, string logo, string website)
     {
         Id = id;
